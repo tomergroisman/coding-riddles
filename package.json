@@ -1,7 +1,7 @@
 {
   "name": "code-riddles",
   "version": "1.0.0",
-  "description": "",
+  "description": "Various coding riddles solutions",
   "main": "index.js",
   "scripts": {
     "lint": "eslint --ext .ts .",
@@ -10,7 +10,7 @@
     "testjs": "jest"
   },
   "keywords": [],
-  "author": "",
+  "author": "Tomer Groisman",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^27.4.0",
