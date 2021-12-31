@@ -1,4 +1,10 @@
 /**
+ * CodeWars
+ * Who Likes It?
+ * https://www.codewars.com/kata/5266876b8f4bf2da9b000362
+ * /
+
+/**
  * Returns a string representation for an array of people who likes an item
  * @param {string[]} names An array of the people who likes the item
  * @return {string} A string representation of the people who likes the item
