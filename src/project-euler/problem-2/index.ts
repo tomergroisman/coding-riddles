@@ -1,3 +1,9 @@
+/**
+ * Project Euler.net Problem 2
+ * Even Fibonacci numbers
+ * https://projecteuler.net/problem=2
+ */
+
 import {isEven} from '../../_utils/numbers';
 
 /**

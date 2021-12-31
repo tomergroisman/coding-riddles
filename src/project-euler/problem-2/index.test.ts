@@ -1,4 +1,4 @@
-import * as uut from './index.ts';
+import * as uut from '.';
 
 describe('Even Fibonacci Numbers Sum Tests', () => {
   describe('Fibonacci Sequence Tests', () => {

@@ -27,4 +27,26 @@ describe('Numbers Utils Tests', () => {
       expect(isEven).toBeFalsy();
     });
   });
+
+  describe('Arithmetic Sequence Sum', () => {
+    it('should calculate the sum of d=1, a1=1, n=10 arithmetic sequence', () => {
+      const sum = uut.arithmeticSequenceSum(10);
+      expect(sum).toBe(55);
+    });
+
+    it('should calculate the sum of d=3, a1=1, n=10 arithmetic sequence', () => {
+      const sum = uut.arithmeticSequenceSum(10, 1, 3);
+      expect(sum).toBe(145);
+    });
+
+    it('should calculate the sum of d=3, a1=1, n=10 arithmetic sequence', () => {
+      const sum = uut.arithmeticSequenceSum(10, -4, 3);
+      expect(sum).toBe(95);
+    });
+
+    it('should calculate the sum of d=4, a1=1, n=20 arithmetic sequence', () => {
+      const sum = uut.arithmeticSequenceSum(20, 1, 4);
+      expect(sum).toBe(780);
+    });
+  });
 });
