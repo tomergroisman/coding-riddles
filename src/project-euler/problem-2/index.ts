@@ -38,3 +38,10 @@ export function sumEvens(max: number): number {
 
   return sum;
 }
+
+/**
+ * Print the riddle's answer
+ */
+export function printAnswer() {
+  console.log(sumEvens(4000000));
+}

@@ -17,3 +17,22 @@ export function isEven(num: number): boolean {
 export function arithmeticSequenceSum(n: number, a1: number = 1, d: number = 1) {
   return n * ((2 * a1) + (n - 1) * d) / 2;
 }
+
+/**
+ * Calculate if a given number is a prime number or not
+ * @param {number} n The prime number candidate
+ * @return {boolean} True if n is prime, false otherwise
+ */
+export function isPrime(n: number): boolean {
+  if (n < 2) {
+    return false;
+  }
+
+  const sqrtN = Math.sqrt(n);
+  for (let i = 2; i < sqrtN; i++) {
+    if (n % i == 0) {
+      return false;
+    }
+  }
+  return true;
+}

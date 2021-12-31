@@ -22,3 +22,10 @@ export function multiplesOfThreeOrFive(n: number) {
 
   return threesArithmeticSequenceSum + fivesArithmeticSequenceSum - duplicationsArithmeticSequenceSum;
 }
+
+/**
+ * Print the riddle's answer
+ */
+export function answer() {
+  multiplesOfThreeOrFive(1000);
+}
